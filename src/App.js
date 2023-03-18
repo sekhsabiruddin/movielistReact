@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+// import "./GenreFilter.js";
+import data from "./data";
+import GenreFilter from "./GenreFilter.js";
+import MovieList from "./MovieList.js";
 
 function App() {
+  const genres = [
+    "Drama",
+    "Crime",
+    "Action",
+    "Fantasy",
+    "Western",
+    "Science Fiction",
+    "Thriller",
+    "War",
+    "Animation",
+  ];
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <GenreFilter genres={genres} />
+      <MovieList data={data} />
     </div>
   );
 }
