@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/movielistReact/static/css/main.6bc5be23.css",
+    "main.js": "/movielistReact/static/js/main.33c2bae5.js",
+    "index.html": "/movielistReact/index.html",
+    "main.6bc5be23.css.map": "/movielistReact/static/css/main.6bc5be23.css.map",
+    "main.33c2bae5.js.map": "/movielistReact/static/js/main.33c2bae5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6bc5be23.css",
+    "static/js/main.33c2bae5.js"
+  ]
+}
